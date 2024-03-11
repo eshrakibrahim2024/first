@@ -1,0 +1,214 @@
+
+@import url("https://fonts.googleapis.com/css2?family=cairo8disblay=swap");
+body{
+    font-family: "cairo",sans-serif;
+    height:3000px;
+}
+
+/************************************* start header ******************************************/
+
+
+
+.header{
+    background-color: rgb(17, 92, 166);
+    color: aliceblue;
+    height:50px;
+    line-height:50px;
+    border-bottom: 3px solid blue;
+}
+.header p{
+    float:right;
+   
+
+}
+/*************************************** end header ******************************************/
+
+/************************************** start slider *****************************************/
+
+
+
+.carousel-indicators{
+    height:30px;
+   
+}
+.overlay{
+    width:100%;
+    height:100%;
+    background-color: rgb(247, 28, 8);
+    position: absolute;
+    z-index: index 3;
+    border-bottom: 3px solid blue;
+}
+/************************************* end slider *********************************/
+
+
+/************************************* start feutures *********************************/
+.feutures{
+  margin-top:75px;
+  background-color: rgb(191, 203, 218);
+  flex-direction: row;
+  border-bottom: 3px solid blue;
+}
+.feutures i{
+    width: 100px;
+    height:100px;
+    background-color: rgb(74, 129, 192);
+    line-height:100px;
+    color: aliceblue;
+   
+ 
+}
+.feutures h3{
+   display: inline-block;
+    color: rgb(63, 111, 207);
+    margin-bottom:20px;
+    margin-top:20px;
+    background-color: rgb(193, 214, 233);
+}
+.feutures ul {
+    color:rgb(103, 116, 131);
+    line-height:1.8;
+    text-align: left;
+}
+
+.feutures h2{
+    font-size:40px;
+    margin-bottom:30px;
+    color: rgb(63, 111, 207);
+    text-align:center;
+
+}
+
+
+/*************************************end feutures *********************************/
+
+/********************* start our team ***************************/
+.our-team{
+    background-color: rgb(185, 211, 249);
+    padding:20px;
+    background-image: url("../images/back.jpg");
+    border-bottom: 3px solid blue;
+}
+/******************************* end our team **************************/
+
+
+
+/********************************* start statistic***************** */
+
+.statistic{
+    width: 100%;
+    margin-top: 100px;
+    height: 500px;
+    background-image: url("../images/supply1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 3px solid blue;
+}
+.statistic .dverlay{
+    background-color: rgba(0, 0, 0, 0.121);
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+
+}
+.statistic .dverlay h3{
+    color: aliceblue;
+    font: size 50px; 
+}
+
+.statistic .dverlay p{
+    color: aliceblue;
+    font-size: 75px;
+}
+
+
+/****************** end statistic *****************/
+
+
+
+
+
+/******************* start target partners  ******************/
+
+.target_partners{
+    margin-top: 100px;
+    background-color: azure;
+    line-height: 250px;
+    border-bottom: 3px solid blue;
+}
+/******************* end target partners  ******************/
+
+/* start recnt neaws */
+.Recnt_News {
+    background-color: rgb(137, 188, 212);
+    border-bottom: 3px solid blue;
+}
+.Recnt_News h2{
+    font-size:40px;
+    margin-bottom:30px;
+    color: rgb(188, 203, 233);
+    text-align:center;
+}
+.Recnt_News .btn-danger {
+    color: #91c2f3;
+    background-color: #2069c3;
+    border-color: #0d3bd1;
+
+}
+.Recnt_News .btn-danger:hover{
+    background-color: #fff;
+
+}
+
+/* end  recnt neaws ***************/
+
+/* start footer ***************/
+footer {
+    background-color: rgb(121, 176, 222);
+    padding-top: 30px ;
+    background-image: url(../images/back2.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  border-bottom: 3px solid blue;
+}
+footer p{
+    color: #fff;
+}
+footer h2{
+    color: #0d6ef6;
+
+}
+footer a{
+    color:white;
+}
+footer a:hover{
+   color: #c8ccd2;
+}
+footer ul{
+    list-style: none;
+
+}
+ /* end footer ********************/
+/**************************************** start blog */
+
+.jumbotron{
+    padding:20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.jumbotron .blog_info{
+    flex:4;
+ }
+
+ .jumbotron .blog_image {
+   flex: 2;
+}
+
+.jumbotron.btn-danger {
+    color: #91c2f3;
+    background-color: #2069c3;
+    border-color: #0d3bd1;
+}
